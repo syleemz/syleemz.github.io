@@ -1,0 +1,15 @@
+<svg width="1920" height="1801">
+  <defs>
+    <mask id="myMask">
+      <rect width="100%" height="100%" fill="white" />
+      <circle cx="200" cy="150" r="50" fill="black" />
+    </mask>
+  </defs>
+  <image
+    href="./slogan.png"
+    width="1920"
+    height="1801"
+    mask="url(#myMask)"
+    preserveAspectRatio="xMidYMid slice"
+  />
+</svg>
